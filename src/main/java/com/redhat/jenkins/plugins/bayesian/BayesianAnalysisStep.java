@@ -69,6 +69,7 @@ public final class BayesianAnalysisStep extends Step {
         return gitUrl;
     }
 
+    
     @DataBoundSetter
     public void setEcosystem(String ecosystem) {
         this.ecosystem = ecosystem;
